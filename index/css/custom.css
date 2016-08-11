@@ -1,5 +1,5 @@
 .fa-stack > a, .fa-stack > a:visited {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   -o-transition:.3s;
   -ms-transition:.3s;
   -moz-transition:.3s;
@@ -8,7 +8,7 @@
 }
 
 .fa-stack > a:hover {
-  color: #337ab7;
+  color: #010101;
 }
 
 .fa-stack-1x {
@@ -19,6 +19,19 @@
   transition:.3s;
 }
 
-.fa-stack-1x:hover {
-  color: #fff;
+.fa-stack-1x {
+  color: rgba(157, 82, 25, 1);
+}
+
+.btn-down > a > .fa-stack-1x {
+  color: rgba(157, 82, 25, 1);
+}
+
+.top-padding-md {
+  padding: 3em 0 0 0;
+}
+
+#mapa {
+  padding: 50px 0 0 0;
+  background-color: #010101;
 }

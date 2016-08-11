@@ -1,3 +1,15 @@
+# [Elias Rojas](https://eliasrojas.github.io)
+
+## How to's
+
+### Download changes
+
+This should be done before working on the files
+
+```bash
+git pull
+```
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/)
 
 [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.

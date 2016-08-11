@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Emilio Rojas">
 
   <title>Stylish Portfolio - Start Bootstrap Theme</title>
 
@@ -39,38 +39,40 @@
     <ul class="sidebar-nav">
       <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
       <li class="sidebar-brand">
-        <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
+        <a href="#inicio" onclick=$("#menu-close").click();>Elías José Rojas Álvarez</a>
       </li>
       <li>
-        <a href="#top" onclick=$("#menu-close").click();>Home</a>
+        <a href="#inicio" onclick=$("#menu-close").click();>Inicio</a>
       </li>
       <li>
-        <a href="#about" onclick=$("#menu-close").click();>About</a>
+        <a href="#perfil" onclick=$("#menu-close").click();>Perfil</a>
       </li>
       <li>
-        <a href="#services" onclick=$("#menu-close").click();>Services</a>
+        <a href="#etapas" onclick=$("#menu-close").click();>Etapas</a>
       </li>
       <li>
-        <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
-      </li>
-      <li>
-        <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+        <a href="#mapa" onclick=$("#menu-close").click();>Contacto</a>
       </li>
     </ul>
   </nav>
 
   <!-- Header -->
-  <header id="top" class="header">
+  <header id="inicio" class="header">
     <div class="text-vertical-center mi-tipodeletra">
       <h1>Elías José Rojas Álvarez</h1>
-      <h3>un paseo</h3>
-      <br>
-      <a href="#about" class="btn btn-dark btn-lg">a contenidos</a>
+      <div class="top-padding-md">
+        <span class="fa-stack fa-3x btn-down">
+          <a href="#etapas">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-caret-down fa-stack-1x"></i>
+          </a>
+        </span>
+      </div>
     </div>
   </header>
 
   <!-- About -->
-  <section id="about" class="about">
+  <section id="perfil" class="perfil">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -85,7 +87,7 @@
 
   <!-- Services -->
   <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-  <section id="services" class="services bg-primary">
+  <section id="etapas" class="etapas bg-primary">
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-10 col-lg-offset-1">
@@ -152,14 +154,18 @@
 
   <!-- Callout -->
   <aside class="callout">
-    <div class="text-vertical-center">
-      <h1>Vertically Centered Text</h1>
+    <div class="bg-image">
+      <p>
+        Diseño Morfogenético
+        <br>
+        Abril 2016
+      </p>
     </div>
   </aside>
 
   <!-- Map -->
-  <section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Torres+del+Este,+Sbanilla,+San+Jose&amp;aq=0&amp;oq=twitter&amp;sll=9.9456713,-84.0382432&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Torres+del+Este,+Sbanilla,+San+Jose&amp;t=m&amp;z=17&amp;iwloc=A&amp;output=embed"></iframe>
+  <section id="mapa" class="map">
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Torres+del+Este,+Sbanilla,+San+Jose&amp;aq=0&amp;oq=Ubicacion&amp;sll=9.9456713,-84.0382432&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Torres+del+Este,+Sbanilla,+San+Jose&amp;t=m&amp;z=17&amp;iwloc=A&amp;output=embed"></iframe>
     <br />
     <small>
       <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Torres+del+Este,+Sbanilla,+San+Jose&amp;aq=0&amp;oq=twitter&amp;sll=9.9456713,-84.0382432&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Torres+del+Este,+Sbanilla,+San+Jose&amp;t=m&amp;z=15&amp;iwloc=A"></a>
@@ -169,35 +175,40 @@
 
 <!-- Footer -->
 <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h4><strong>Elías José Rojas Álvarez</strong></h4>
-        <p>Terrazas del Este
-          <br>Sabanilla, Montes de Oca 11502</p>
-          <ul class="list-unstyled">
-            <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-            <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:elias.rojas.alvarez@gmail.com">elias.rojas.alvarez@gmail.com</a>
-            </li>
-          </ul>
-          <br>
-          <ul class="list-inline">
-            <li>
-              <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-            </li>
-          </ul>
-          <hr class="small">
-          <p class="text-muted">Copyright &copy; Elias Rojas 2016</p>
+  <div id="contacto" class="contacto bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h4><strong>Elías José Rojas Álvarez</strong></h4>
+          <p>Terrazas del Este
+            <br>Sabanilla, Montes de Oca 11502
+            <br>San José - Costa Rica
+            <br>&nbsp;</p>
+            <p>
+              <i class="fa fa-phone fa-fw"></i> +506 8935-4359
+            </p>
+            <p>
+              <i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:eliasrojasalvarez@gmail.com">eliasrojasalvarez@gmail.com
+            </p>
+            <br>
+            <ul class="list-inline">
+              <li>
+                <a href="https://www.facebook.com/ejr.arq" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/el%C3%ADas-jose-rojas-%C3%A1lvarez-916a6772" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+              </li>
+            </ul>
+            <hr class="small">
+            <p class="text-muted">Copyright &copy; Elias Rojas 2016</p>
+          </div>
         </div>
       </div>
+      <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </div>
-    <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
   </footer>
 
   <!-- jQuery -->
