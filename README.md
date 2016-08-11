@@ -39,9 +39,9 @@ git push
 [```ALIAS``` or ```ANAME``` record](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-an-alias-or-aname-record-with-your-dns-provider)
 
  - Add a file named ```CNAME``` to root of project with the apex to use (e.g. eliasjrojas.com) as it's content.
- - 
+
 #### ```WWW```
-Add a cname record pointing to repo's name on dns provider.
+ - Add a cname record pointing to repo's name on dns provider.
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/)
 
