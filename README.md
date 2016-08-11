@@ -6,9 +6,39 @@
 
 This should be done before working on the files
 
+Open console/terminal at project folder.
+
 ```bash
 git pull
 ```
+
+This should be done before working and before uploading the files.
+
+### Upload changes
+
+Open console/terminal at project folder.
+
+```bash
+git pull
+git add .
+git commit -m "short message with changes made"
+git push
+```
+
+### Add apex and ```www``` subdomain
+
+#### Apex
+
+ - Add ```A``` record to @ on dns provider with the following ips:
+
+```
+192.30.252.153
+192.30.252.154
+```
+
+[```ALIAS``` or ```ANAME``` record](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-an-alias-or-aname-record-with-your-dns-provider)
+
+ - Add a file named ```CNAME``` to root of project with the apex to use (e.g. eliasjrojas.com) as it's content.
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/)
 
