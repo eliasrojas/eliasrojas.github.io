@@ -1,10 +1,12 @@
 // Closes the sidebar menu
 $("#menu-close").click(function(e) {
+  $("#menu-toggle").show();
   e.preventDefault();
   $("#sidebar-wrapper").toggleClass("active");
 });
 // Opens the sidebar menu
 $("#menu-toggle").click(function(e) {
+  $(this).hide();
   e.preventDefault();
   $("#sidebar-wrapper").toggleClass("active");
 });
